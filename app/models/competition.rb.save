@@ -1,0 +1,5 @@
+class Competition < ActiveRecord::Base
+  attr_accessible :id, :name
+
+  validates :id, :presence => tr
+end
