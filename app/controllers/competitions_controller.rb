@@ -32,6 +32,7 @@ class CompetitionsController < ApplicationController
     end
   end
 
+  # This is the Edit below
   # GET /competitions/1/edit
   def edit
     @competition = Competition.find(params[:id])
